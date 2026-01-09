@@ -20,6 +20,18 @@ let choice = Number(prompt(
 
 if (choice === 1) {
   alert("Du valde Pizza - Vår mest populära rätt!");
+  let pizzaChoice = Number(prompt(
+    "Vilken pizzatyp vill du ha? \n1. Margareta\n2. Pepperoni\n3. Kebabpizza\n\ Ange en siffra:"
+  ));
+  if (pizzaChoice === 1) {
+    alert("Du valde Pizza Margareta!");
+  } else if (pizzaChoice === 2) {
+    alert("Din Pepperoni pizza blir snart klar!");
+  } else if (pizzaChoice === 3) {
+    alert("Kebab Pizza, det fixar vi! ");
+  } else (alert("Tyvärr vi har inte den typ av pizza, testa någon av våra andra alternativ."));
+
+
 } else if (choice === 2) {
   alert("Yammi Pasta - ett klassiskt val!")
 } else if (choice === 3) {
